@@ -1,0 +1,41 @@
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.card-img-top {
+    height: 220px;
+}
+
+.diapositiva {
+    min-height: 220px;
+    padding: 30px 60px;
+    text-align: center;
+}
+
+.letra::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--bs-danger);
+}
+
+.nota::before {
+    content: "★ ";
+    color: var(--bs-danger);
+}
+
+.tema .card {
+    transition: box-shadow 0.2s;
+}
+
+.tema .card:hover {
+    box-shadow: 6px 6px 0 #000;
+}
+
+#intro,
+#temas,
+#contacto,
+.tema {
+    scroll-margin-top: 80px;
+}
